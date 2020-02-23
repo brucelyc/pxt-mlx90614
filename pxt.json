@@ -1,18 +1,17 @@
 {
-    "name": "mlx90614",
+    "name": "pxt-mlx90614",
     "version": "0.0.1",
-    "description": "A package to use temperature probes using the MLX90614",
-    "license": "MIT",
+    "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*"
     },
     "files": [
         "README.md",
-        "uBit_MLX90614.cpp",
-        "uBit_MLX90614.h",
-        "shims.d.ts",
-        "enums.d.ts"
+        "main.ts"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true
 }
