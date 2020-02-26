@@ -5,9 +5,9 @@ namespace MLX90614 {
     const amTempAddr = 0x06
 
     export enum TemperatureLocation {
-        //% blockId="Object" block="Object"
+        //% blockId="Object" block="object"
         Object = 0,
-        //% blockId="Ambiant" block="Ambiant"
+        //% blockId="Ambiant" block="ambiant"
         Ambiant = 1
     }
     
