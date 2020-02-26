@@ -1,7 +1,7 @@
 enum TemperatureLocation {
-    //%block="Object"
+    //% blockId="Object" block="Object"
     Object = 0,
-    //%block="Ambiant"
+    //% blockId="Ambiant" block="Ambiant"
     Ambiant = 1
 }
 
