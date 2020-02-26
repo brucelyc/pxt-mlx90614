@@ -24,21 +24,13 @@ namespace MLX90614 {
         return Math.round(temp *100)/100
     }
 
-    function objectTemp(): number{
-        return readTemp(obTempAddr)
-    }
-
-    function ambientTemp(): number{
-        return readTemp(amTempAddr)
-    }
-
     //%block="Temperature %loc"
     export function temperature(loc: TemperatureLocation): number{
         switch (loc){
             case 0:
-                return objectTemp();
+                return readTemp(obTempAddr);
             case 1:
-                return ambientTemp();
+                return readTemp(amTempAddr);
             default:
                 return 0;
         }
