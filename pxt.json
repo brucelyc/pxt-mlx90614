@@ -1,10 +1,9 @@
 {
     "name": "pxt-mlx90614",
     "version": "0.0.2",
-    "description": "",
+    "description": "MLX90614 for Micro:bit",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
