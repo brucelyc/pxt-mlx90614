@@ -1,5 +1,5 @@
 {
-    "MLX90614.Temperature|block": "溫度",
+    "MLX90614.Temperature|block": "溫度|%loc",
     "MLX90614.TemperatureLocation.tmpObject|block": "目標物",
     "MLX90614.TemperatureLocation.tmpAmbiant|block": "周圍"
 }
