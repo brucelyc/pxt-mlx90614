@@ -1,6 +1,6 @@
 {
     "MLX90614|block": "紅外射溫測",
     "MLX90614.Temperature|block": "溫度|%loc",
-    "TemperatureLocation.Object|block": "目標物",
-    "TemperatureLocation.Ambiant|block": "周圍"
+    "MLX90614.TemperatureLocation.Object|block": "目標物",
+    "MLX90614.TemperatureLocation.Ambiant|block": "周圍"
 }
