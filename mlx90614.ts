@@ -24,7 +24,7 @@ namespace MLX90614 {
         return Math.round(temp *100)/100
     }
 
-    //% blockId="Temp" block="temp %loc"
+    //% blockId="Temp" block="Temperature %loc"
     export function temperature(loc: TemperatureLocation): number{
         switch (loc){
             case 0:
