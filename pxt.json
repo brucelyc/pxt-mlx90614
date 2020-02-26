@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "mlx90614.ts",
-        "_locales/zh/pxt-mlx90614-strings.json"
+        "_locales/zh/mlx90614-strings.json"
     ],
     "testFiles": [
         "test.ts"
