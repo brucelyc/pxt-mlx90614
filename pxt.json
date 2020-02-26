@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "mlx90614.ts"
     ],
     "testFiles": [
         "test.ts"
