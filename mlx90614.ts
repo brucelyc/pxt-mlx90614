@@ -1,4 +1,4 @@
-//%color=#FF8533 icon="\uf2cb" block="MLX90614"
+//%color=#FF8533 icon="\uf2cb" block="mlx90614"
 namespace MLX90614 {
     const addr = 0x5A
     const obTempAddr = 0x07
@@ -24,7 +24,7 @@ namespace MLX90614 {
         return Math.round(temp *100)/100
     }
 
-    //% blockId="Temperature" block="Temperature %loc"
+    //% blockId="Temp" block="Temperature %loc"
     export function temperature(loc: TemperatureLocation): number{
         switch (loc){
             case 0:
