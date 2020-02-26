@@ -1,6 +1,6 @@
 {
     "MLX90614|block": "紅外線溫測",
-    "MLX90614.Temp|block": "溫度|%loc",
+    "MLX90614.temperature|block": "溫度|%loc",
     "MLX90614.object|block": "目標物",
     "MLX90614.ambiant|block": "周圍"
 }
