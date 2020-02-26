@@ -5,9 +5,9 @@ namespace MLX90614 {
     const amTempAddr = 0x06
 
     export enum TemperatureLocation {
-        //% block="object"
+        //% blockId="Object" block="Object"
         Object = 0,
-        //% block="ambiant"
+        //% blockId="Ambiant" block="Ambiant"
         Ambiant = 1
     }
     
@@ -24,7 +24,7 @@ namespace MLX90614 {
         return Math.round(temp *100)/100
     }
 
-    //% block="Temperature %loc"
+    //% blockId="temperature" block="Temperature %loc"
     export function temperature(loc: TemperatureLocation): number{
         switch (loc){
             case 0:
