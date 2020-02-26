@@ -1,6 +1,6 @@
 {
     "name": "pxt-mlx90614",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "MLX90614 extension for Micro:bit",
     "dependencies": {
         "core": "*"
