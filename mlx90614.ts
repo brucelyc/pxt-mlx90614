@@ -1,5 +1,5 @@
-//%color=#FF8533 icon="\uf2cb" block="MLX90614"
-namespace mlx90614 {
+//%color=#FF8533 icon="\uf2cb" block="mlx90614"
+namespace MLX90614 {
     const addr = 0x5A
     const obTempAddr = 0x07
     const amTempAddr = 0x06
