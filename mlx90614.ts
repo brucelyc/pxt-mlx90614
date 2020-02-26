@@ -1,16 +1,16 @@
-enum TemperatureLocation {
-    //% blockId="Object" block="Object"
-    Object = 0,
-    //% blockId="Ambiant" block="Ambiant"
-    Ambiant = 1
-}
-
 //%color=#FF8533 icon="\uf2cb" block="MLX90614"
 namespace MLX90614 {
     const addr = 0x5A
     const obTempAddr = 0x07
     const amTempAddr = 0x06
 
+    enum TemperatureLocation {
+        //% blockId="Object" block="Object"
+        Object = 0,
+        //% blockId="Ambiant" block="Ambiant"
+        Ambiant = 1
+    }
+    
     function read16(reg: NumberFormat.UInt8BE): number {
         pins.i2cWriteNumber(addr, reg, NumberFormat.UInt8BE, true);
         let ret = pins.i2cReadNumber(addr, NumberFormat.UInt16LE, true);
