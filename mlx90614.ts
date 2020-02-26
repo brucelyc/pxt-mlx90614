@@ -1,8 +1,8 @@
 enum TemperatureLocation {
     //%block="Object"
     Object,
-    //%block="Ambiant"
-    Ambiant
+    //%block="Ambient"
+    Ambient
 }
 
 //%color=#FF8533 icon="\uf2cb" block="MLX90614"
